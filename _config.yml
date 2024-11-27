@@ -1,10 +1,21 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge  
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+gem "github-pages", group: :jekyll_plugins
+
+title: [TOMOSAR - Comprehensive InSAR Solutions for Your Needs]
+description: [Our cutting-edge InSAR (Interferometric Synthetic Aperture Radar) services provide precise and reliable solutions for monitoring ground deformation, infrastructure stability, natural hazards, and more. From environmental management to construction and mining, we deliver tailored insights to meet your project's unique requirements. Trust us for accurate, actionable data and seamless integration into your workflows.]
+
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
